@@ -77,9 +77,9 @@
         margin: 0 0 4% 0;
     }
 
-    .main-nav{
+    /* .main-nav{
         display: none;
-    }
+    } */
     .app-screen{
         width: 40%;
     }
@@ -109,4 +109,58 @@
     .contact-form{
         width: 100%;
     }
+    nav{
+        
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+        align-items: center;
+        line-height: 2rem;
+    }
+    .logo{
+        display: none;
+    }
+    .hero-text-box{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        align-items: center;
+        line-height: 1.2rem;
+    }
+    .btn{
+        width: 9rem;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        letter-spacing: 0ch;
+        align-items: center;
+        
+    }
+    .btn-full{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .btn-ghost{
+        margin-top: 0.6rem;
+        margin-bottom: 1rem;
+    }
+   .section-features > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin: 1rem;
+        position: relative;
+   }
+   .icon-big > h3{
+        position: absolute;
+        display: flex;
+        justify-content: center!important;
+        margin-top: 12rem;
+       
+   }
+    
 }
