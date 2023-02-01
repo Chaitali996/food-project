@@ -162,5 +162,9 @@
         margin-top: 12rem;
        
    }
+   .row2{
+    align-items: center;
+    font-size: 12px;
+   }
     
 }
